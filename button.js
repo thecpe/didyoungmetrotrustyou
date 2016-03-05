@@ -7,7 +7,7 @@ if (contextClass) {
   onError;
 }
 var request = new XMLHttpRequest();
-request.open('GET', "https://dl.dropboxusercontent.com/content_link/l1m2vtAWx7U5eESsiRSEXhc1q6FdVYwhElozj91W2BmeRP5C3NGmfL3YuDiQWLpm/file?duc_id=dropbox_duc_id", true);
+request.open('GET', "https://drive.google.com/file/d/0B8VBe5RstGJIMnhzWkhKZmVlejA/preview", true);
 request.responseType = 'arraybuffer';
 request.onload = function() {
  context.decodeAudioData(request.response, function(theBuffer) {

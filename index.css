@@ -27,6 +27,8 @@ button {
   text-align: center;
   -webkit-user-select: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  margin-bottom: 10%;
+  margin-top: 50%;
 }
 button span { position: relative; }
 /* fix for IE 11 (and IE8+, although the earlier versions are harder to address) stupidly moving the inner button text on click */
